@@ -62,6 +62,7 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Security\" />
+    <Folder Include="GenerateMMDataScript" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="MM\Tables\Characters.sql" />
@@ -82,5 +83,6 @@
     <Build Include="MM\Views\vw_ShowCharacterInstances.sql" />
     <Build Include="MM\Views\vw_ListMonstersCR1.sql" />
     <Build Include="MM\Views\vw_ListMonstersAll.sql" />
+    <Build Include="GenerateMMDataScript\GenerateDataScript.sql" />
   </ItemGroup>
 </Project>
