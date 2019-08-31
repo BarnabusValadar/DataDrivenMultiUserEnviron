@@ -21,4 +21,8 @@ Possible features
 
 7. A PowerShell script that displays the tail of the log file so we can simply right click on Windows Explorer on the script and see a running log.
 
-8. ...
+8. Make a folder in the repo for just the Githrin campaign images and documents.
+
+9. Where possible try and have non-campaign specific resources, and then the ability to have a custom campaign folder of stuffs.
+
+10. ...
