@@ -56,5 +56,29 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="MM\" />
+    <Folder Include="MM\Tables\" />
+    <Folder Include="MM\Views\" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="MM\Tables\Characters.sql" />
+    <Build Include="MM\Tables\Alignment.sql" />
+    <Build Include="MM\Tables\Armour.sql" />
+    <Build Include="MM\Tables\Attributes.sql" />
+    <Build Include="MM\Tables\CharacterInstance.sql" />
+    <Build Include="MM\Tables\Players.sql" />
+    <Build Include="MM\Tables\Classes.sql" />
+    <Build Include="MM\Tables\Races.sql" />
+    <Build Include="MM\Tables\MapLocation.sql" />
+    <Build Include="MM\Tables\MonsterInstance.sql" />
+    <Build Include="MM\Tables\Weapons.sql" />
+    <Build Include="MM\Tables\Monsters.sql" />
+    <Build Include="MM\Views\vw_Monsters.sql" />
+    <Build Include="MM\Views\vw_Monsters_CR1.sql" />
+    <Build Include="Security\MM.sql" />
+    <Build Include="dbo\Stored Procedures\Random_Words_Generated_from_syserrortrace.sql" />
   </ItemGroup>
 </Project>

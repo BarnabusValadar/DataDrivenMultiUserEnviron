@@ -1,0 +1,28 @@
+﻿CREATE TABLE [MM].[Monsters] (
+    [MonsterID]       INT          IDENTITY (1, 1) NOT NULL,
+    [Name]            VARCHAR (50) NULL,
+    [Type]            VARCHAR (50) NULL,
+    [ALIGNMENT]       VARCHAR (50) NULL,
+    [Size]            VARCHAR (50) NULL,
+    [CR]              VARCHAR (50) NULL,
+    [AC]              VARCHAR (50) NULL,
+    [HP]              VARCHAR (50) NULL,
+    [Spellcasting?]   VARCHAR (50) NULL,
+    [Attack 1 damage] VARCHAR (50) NULL,
+    [Attack 2 Damage] VARCHAR (50) NULL,
+    [Page]            VARCHAR (50) NULL,
+    [CR (Decimal)]    VARCHAR (50) NULL,
+    [Arctic]          VARCHAR (50) NULL,
+    [Coast]           VARCHAR (50) NULL,
+    [Desert]          VARCHAR (50) NULL,
+    [Forest]          VARCHAR (50) NULL,
+    [Grassland]       VARCHAR (50) NULL,
+    [Hill]            VARCHAR (50) NULL,
+    [Mountain]        VARCHAR (50) NULL,
+    [Swamp]           VARCHAR (50) NULL,
+    [Underdark]       VARCHAR (50) NULL,
+    [Underwater]      VARCHAR (50) NULL,
+    [Urban]           VARCHAR (50) NULL,
+    [Book]            VARCHAR (50) NULL
+);
+
