@@ -11,6 +11,7 @@ Possible features
 2. To be able to automatically translate a IRpgRules implementing class to any other with a Translation class.
 
 3. OpenSteer for AI movement of bots.
+   Use https://github.com/martindevans/SharpSteer2 via NuGet. TODO CJ
 
 4. Node.JS Nuget front end for in VS2019 editing.
 
