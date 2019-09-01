@@ -78,11 +78,14 @@
     <Build Include="MM\Tables\Weapons.sql" />
     <Build Include="MM\Tables\Monsters.sql" />
     <Build Include="Security\MM.sql" />
-    <Build Include="dbo\Stored Procedures\Random_Words_Generated_from_syserrortrace.sql" />
     <Build Include="MM\Tables\Status.sql" />
     <Build Include="MM\Views\vw_ShowCharacterInstances.sql" />
     <Build Include="MM\Views\vw_ListMonstersCR1.sql" />
     <Build Include="MM\Views\vw_ListMonstersAll.sql" />
     <Build Include="GenerateMMDataScript\GenerateDataScript.sql" />
+    <Build Include="MM\Views\vw_ShowMonsterInstances.sql" />
+    <Build Include="dbo\Stored Procedures\usp_VisualDiceRoller.sql" />
+    <Build Include="dbo\Stored Procedures\usp_RandomWordsGeneratedFromSysTrace.sql" />
+    <Build Include="dbo\Stored Procedures\Dev_AttackandDamageRoll.sql" />
   </ItemGroup>
 </Project>
