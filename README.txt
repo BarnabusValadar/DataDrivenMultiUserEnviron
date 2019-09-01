@@ -41,8 +41,10 @@ E.g. one such instance of a class that implements the IRpgRules Interface could 
    Use https://github.com/martindevans/SharpSteer2 via NuGet. TODO CJ
 
 4. Node.JS Nuget front end for in VS2019 editing.
+
+   https://visualstudio.microsoft.com/vs/features/node-js/
    
-   Reading list: [i'll cull this as I go through them and just include what is used by the project when I know :) ]
+   Node.JS Reading list: [i'll cull this as I go through them and just include what is used by the project when I know :) ]
    
    https://github.com/maxogden/elementary-electron
    https://github.com/othiym23/bug-clinic
