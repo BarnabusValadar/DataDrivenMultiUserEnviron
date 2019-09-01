@@ -14,7 +14,9 @@ Possible features
    Use https://github.com/martindevans/SharpSteer2 via NuGet. TODO CJ
 
 4. Node.JS Nuget front end for in VS2019 editing.
-
+   Reading list:
+   https://github.com/maxogden/elementary-electron
+   
 5. A simple web home page that displays some database stats and a hello world.
 
 6. A log file that is written to as world state changes.
