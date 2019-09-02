@@ -82,3 +82,7 @@ E.g. one such instance of a class that implements the IRpgRules Interface could 
 9. Where possible try and have non-campaign specific resources, and then the ability to have a custom campaign folder of stuffs.
 
 10. ...
+
+
+Further Readings:
+1. CRUD: https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
